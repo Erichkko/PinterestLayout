@@ -13,6 +13,7 @@
 		FEAE7CE61D3B86DF00BF0A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAE7CE41D3B86DF00BF0A37 /* Main.storyboard */; };
 		FEAE7CE81D3B86DF00BF0A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEAE7CE71D3B86DF00BF0A37 /* Assets.xcassets */; };
 		FEAE7CEB1D3B86DF00BF0A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEAE7CE91D3B86DF00BF0A37 /* LaunchScreen.storyboard */; };
+		FEAE7CF41D3B87C200BF0A37 /* WaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FEAE7CF31D3B87C200BF0A37 /* WaterFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FEAE7CE71D3B86DF00BF0A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEAE7CEA1D3B86DF00BF0A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEAE7CEC1D3B86DF00BF0A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEAE7CF21D3B87C200BF0A37 /* WaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowLayout.h; sourceTree = "<group>"; };
+		FEAE7CF31D3B87C200BF0A37 /* WaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				FEAE7CE91D3B86DF00BF0A37 /* LaunchScreen.storyboard */,
 				FEAE7CEC1D3B86DF00BF0A37 /* Info.plist */,
 				FEAE7CDB1D3B86DF00BF0A37 /* Supporting Files */,
+				FEAE7CF21D3B87C200BF0A37 /* WaterFlowLayout.h */,
+				FEAE7CF31D3B87C200BF0A37 /* WaterFlowLayout.m */,
 			);
 			path = PinterestLayout;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEAE7CE31D3B86DF00BF0A37 /* ViewController.m in Sources */,
+				FEAE7CF41D3B87C200BF0A37 /* WaterFlowLayout.m in Sources */,
 				FEAE7CE01D3B86DF00BF0A37 /* AppDelegate.m in Sources */,
 				FEAE7CDD1D3B86DF00BF0A37 /* main.m in Sources */,
 			);
